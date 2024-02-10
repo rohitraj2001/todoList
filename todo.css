@@ -38,11 +38,11 @@ ul li:hover {
     cursor: pointer;
 }
 
-#list label :before {
+#list label:before {
     content: '';
     background-color: transparent;
     border: 2px solid #0079bf;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
     padding: 10px;
     display: inline-block;
     position: relative;
